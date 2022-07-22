@@ -529,8 +529,11 @@ header .badges .badge {
   font-size: 36px;
   vertical-align: bottom;
 }
-.notice .inner .inner__right .toggle-promotion {
+.notice .inner .inner__right .toggle-promotion span {
   transition: 0.4s;
+}
+.notice .inner .inner__right .toggle-promotion span {
+  border: 1px solid #000;
 }
 
 .notice .promotion {

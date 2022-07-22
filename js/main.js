@@ -60,7 +60,7 @@ function controlAutoplay() {
 
 //TOGGLE PROMOTION
 const promotionEl = document.querySelector(".promotion");
-const promotionToggleBtn = document.querySelector(".toggle-promotion");
+const promotionToggleBtn = document.querySelector(".toggle-promotion span");
 
 promotionToggleBtn.addEventListener("click", function () {
   if (promotionEl.classList.contains("hide")) {
